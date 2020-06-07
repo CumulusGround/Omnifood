@@ -1,0 +1,97 @@
+
+
+
+
+
+/* big tablets */
+@media (max-width: 1200px) {
+
+}
+
+
+/* tablets */
+@media (max-width: 1023px) {
+  body { font-size: 18px; }
+
+  .logo { padding-left: 2%;  }
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .long-copy { width: 80%; }
+  
+  .steps {
+    margin-bottom: 40px;
+  }
+  
+  .steps:last-of-type {
+    margin-bottom: 50px;
+  }
+  
+  .iphone {
+    width: 50%;
+  }
+
+  .section-testimonials {
+    padding-left: 2%;
+  }
+}
+
+
+/* bigger phones */
+@media (max-width: 767px) {
+  body { font-size: 16px;}
+  section { padding: 30px 0;}
+  .row,
+  .hero-text-box { padding: 3% 0;}
+  .main-nav { display: none;}
+  .col { 
+    width: 100%;
+  	margin: 1% 0 1% 0;
+}
+
+  h1 {font-size: 180%;}
+  h2 {font-size: 150%;}
+
+  .iphone {width: 40%;}
+
+  .steps-box:first-child { 
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+  }
+  
+  .steps-box:last-child {
+    padding: 3%;
+    margin-top: 40px;
+  }
+
+  .steps { 
+    margin-bottom: 30px;
+  }
+
+  .steps div { 
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    font-size: 120%;
+  }
+
+  .steps p:last-child {
+    padding-top: 10px;
+  }
+}
+
+
+
+/* Small phones */
+@media (max-width: 480px) {
+
+}
